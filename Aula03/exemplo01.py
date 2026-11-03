@@ -3,7 +3,9 @@
 #apresente o valor do aumento e o novo salario do funcionario apos o reajuste
 
 salario = float(input('informe o salario atual: '))
-percentual = 0.15
+percentual = float(input('informe o percentual: '))
+
+percentual = percentual / 100
 
 aumento = salario * percentual
 total_aumento = salario + aumento
